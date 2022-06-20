@@ -18,7 +18,7 @@ const Banner = () => {
             <Carousel.Item interval={500}>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/18w1S0W/3.jpg"
+                    src="https://i.ibb.co/sJGdkBN/2.jpg"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
