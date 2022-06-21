@@ -23,7 +23,7 @@ const Header = () => {
                         <Nav.Link className='fw-semibold text-black' as={Link} to="/projects">Projects</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link className='fw-semibold text-black' as={Link} to="/about">About</Nav.Link>
+                        <Nav.Link className='fw-semibold text-black' as={Link} to="/contact">Contact</Nav.Link>
                         {
                             user ? <Nav.Link onClick={handleSignOut} className='fw-semibold text-black' as={Link} to="/login">SignOut</Nav.Link> : <Nav.Link className='fw-semibold text-black' as={Link} to="/login">LogIn</Nav.Link>
                         }
