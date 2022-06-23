@@ -1,10 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import PageTitle from '../Share/PageTitle/PageTitle';
 
 
 const Contact = () => {
     return (
         <div className='py-5'>
+            <PageTitle title='Contact'></PageTitle>
             <h3>Contact</h3>
             <div className='offset-2'>
                 <div className="contact-address">

@@ -8,6 +8,7 @@ import Loading from '../Share/Loading/Loading';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
+import PageTitle from '../Share/PageTitle/PageTitle';
 
 const Login = () => {
     const [ email, setEmail ] = useState( '' );
@@ -49,6 +50,7 @@ const Login = () => {
     };
     return (
         <Form onSubmit={handleLogin} className='w-50 mx-auto py-5'>
+            <PageTitle title='Login'></PageTitle>
             <h3 style={{ color: "#4D78EB" }} className='text-center'>Login</h3>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>

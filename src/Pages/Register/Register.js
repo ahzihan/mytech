@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../../src/firebase.init';
 import Loading from '../Share/Loading/Loading';
+import PageTitle from '../Share/PageTitle/PageTitle';
 
 const Register = () => {
     const navigate = useNavigate();
@@ -36,6 +37,7 @@ const Register = () => {
 
     return (
         <Form onSubmit={handleFormSubmit} className='w-50 mx-auto py-5'>
+            <PageTitle title='Register'></PageTitle>
             <h3 style={{ color: "#4D78EB" }} className='text-center'>Register</h3>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
